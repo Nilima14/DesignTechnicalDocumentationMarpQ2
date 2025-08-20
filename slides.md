@@ -13,12 +13,13 @@ Email: **23f1000504@ds.study.iitm.ac.in**
 
 ---
 
+<!-- _class: lead -->
 <!-- _background: "background.png" -->
+![bg](background.png)
 
 # Welcome
 
-This slide has a **background image** (`background.png`)  
-and uses a **Marp directive**.
+This slide has a **background image** and explicit **Marp directives**.
 
 ---
 
@@ -26,11 +27,10 @@ and uses a **Marp directive**.
 
 <style>
 h1 { color: #d33682; }
-p { font-size: 20px; }
+p  { font-size: 20px; }
 </style>
 
-Marp allows inline **custom CSS styling**  
-for flexible presentations.
+Marp allows inline **custom CSS styling** for flexible presentations.
 
 ---
 
@@ -42,7 +42,6 @@ $$
 T(n) = O(n \log n)
 $$
 
-This represents the time complexity of  
-efficient sorting algorithms like **Merge Sort**.
+This represents the time complexity of efficient sorting algorithms like **Merge Sort**.
 
 ---
