@@ -13,11 +13,13 @@ Email: **23f1000504@ds.study.iitm.ac.in**
 
 ---
 
+<!-- _class: lead -->
 <!-- _background: "background.png" -->
+<!-- paginate: true -->
 
 # Welcome
 
-This slide uses a **background image** (`background.png`).  
+This slide uses a **background image** (`background.png`) and a **Marp directive**.
 
 ---
 
@@ -38,15 +40,12 @@ Marp allows inline **custom CSS styling** for flexible presentations.
 
 # Algorithmic Complexity
 
-We can represent algorithmic complexity using LaTeX math:
+Example of a mathematical equation:  
 
-- Linear search: $O(n)$  
-- Binary search: $O(\log n)$  
-- Merge sort: $O(n \log n)$  
+$$
+T(n) = O(n \log n)
+$$
+
+This represents the **time complexity** of efficient sorting algorithms like Merge Sort.
 
 ---
-
-# Thank You
-
-For questions, reach me at:  
-📧 **23f1000504@ds.study.iitm.ac.in**
