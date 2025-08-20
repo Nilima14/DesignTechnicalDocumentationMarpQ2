@@ -13,15 +13,15 @@ Email: **23f1000504@ds.study.iitm.ac.in**
 
 ---
 
+<!-- _background: "background.png" -->
+
 # Welcome
 
-This slide uses a **background image**.
-
-![bg](background.png)
+This slide uses a **background image** (`background.png`).  
 
 ---
 
-## Custom Styling
+# Custom Styling
 
 <style>
 h1 {
@@ -38,10 +38,15 @@ Marp allows inline **custom CSS styling** for flexible presentations.
 
 # Algorithmic Complexity
 
-Inline math: $O(n \log n)$
+We can represent algorithmic complexity using LaTeX math:
 
-Block math:
+- Linear search: $O(n)$  
+- Binary search: $O(\log n)$  
+- Merge sort: $O(n \log n)$  
 
-$$
-T(n) = T\left(\frac{n}{2}\right) + O(n) \implies T(n) = O(n \log n)
-$$
+---
+
+# Thank You
+
+For questions, reach me at:  
+📧 **23f1000504@ds.study.iitm.ac.in**
