@@ -1,6 +1,6 @@
 ---
 marp: true
-title: Technical Documentation with Marp
+title: Product Documentation Presentation
 author: Nilima Motghare
 theme: default
 paginate: true
@@ -8,7 +8,7 @@ paginate: true
 
 # Product Documentation
 
-Email: **23f1000504@ds.study.iitm.ac.in**
+📧 Email: **23f1000504@ds.study.iitm.ac.in**
 
 ---
 
@@ -16,15 +16,15 @@ Email: **23f1000504@ds.study.iitm.ac.in**
 
 <style>
 section {
-  background: #f4f4f4;
+  background: #f9f9f9;
   color: #222;
 }
 h1 {
-  color: #d33682;
+  color: #007acc;
 }
 </style>
 
-This slide uses a **custom theme with CSS styling**.
+This slide uses a **custom CSS theme**.
 
 ---
 
@@ -32,13 +32,15 @@ This slide uses a **custom theme with CSS styling**.
 
 ![bg](background.png)
 
-This slide has a **background image**.
+This slide demonstrates a **background image**.  
+Your background file should be named **background.png** in the repo.
 
 ---
 
-# Code Example
+# Code Example (Syntax Highlighting)
 
 ```python
-def complexity(n):
-    for i in range(n):
-        print(i)
+def fibonacci(n):
+    if n <= 1:
+        return n
+    return fibonacci(n-1) + fibonacci(n-2)
