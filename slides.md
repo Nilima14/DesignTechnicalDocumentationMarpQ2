@@ -1,44 +1,44 @@
 ---
 marp: true
 title: Technical Documentation with Marp
-author: Nilima (23f1000504@ds.study.iitm.ac.in)
-theme: gaia
+author: Nilima Motghare
+theme: default
 paginate: true
 ---
 
-# Technical Documentation with Marp
+# Product Documentation
 
-Author: **Nilima**  
 Email: **23f1000504@ds.study.iitm.ac.in**
 
 ---
 
-<!-- _class: lead -->
-<!-- _background: "background.png" -->
-
-# Welcome
-
-This slide uses a **background image** (`background.png`).
-
----
-
-## Custom Styling
+# Custom Theme Example
 
 <style>
+section {
+  background: #f4f4f4;
+  color: #222;
+}
 h1 {
   color: #d33682;
 }
-p {
-  font-size: 20px;
-}
 </style>
 
-Marp allows inline **custom CSS styling** for flexible presentations.
+This slide uses a **custom theme with CSS styling**.
 
 ---
 
-## Code Example
+# Background Image Example
+
+![bg](background.png)
+
+This slide has a **background image**.
+
+---
+
+# Code Example
 
 ```python
-def hello():
-    print("Hello, World!")
+def complexity(n):
+    for i in range(n):
+        print(i)
