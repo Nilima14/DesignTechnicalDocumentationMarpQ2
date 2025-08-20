@@ -22,13 +22,11 @@ paginate: true
 
 ---
 
-<!-- _backgroundImage: url('Sunset Sky with Illuminated Clouds.png') -->
-<!-- _backgroundSize: cover -->
-<!-- _color: white -->
+![bg](Sunset%20Sky%20with%20Illuminated%20Clouds.png)
 
 # Background Image Example
 
-This slide uses a background image with custom styling.  
+This slide uses a **background image** 🎨  
 Your email: **23f1000504@ds.study.iitm.ac.in**
 
 ---
