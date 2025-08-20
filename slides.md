@@ -1,52 +1,42 @@
 ---
 marp: true
-title: Product Documentation
-author: Nilima
-theme: gaia
+title: Technical Documentation with Marp
+author: Nilima Motghare
+theme: default
 paginate: true
 ---
 
-<!-- _class: lead -->
+# Technical Documentation with Marp
 
-# Product Documentation
-
-Author: **Nilima**  
-Email: **23f1000504@ds.study.iitm.ac.in**
+**Author:** Nilima Motghare  
+**Email:** 23f1000504@ds.study.iitm.ac.in  
 
 ---
 
-<!-- _backgroundImage: url('sunset.png') -->
+# Why Marp?
+
+- Write presentations in **Markdown**
+- Export to **HTML, PDF, PPTX**
+- Version control with **GitHub**
+- Custom themes and styles
+
+---
+
+<!-- _backgroundImage: url('Sunset Sky with Illuminated Clouds.png') -->
 <!-- _backgroundSize: cover -->
 <!-- _color: white -->
 
-# Background Slide
+# Background Image Example
 
-This slide demonstrates a **background image** 🎉
-
----
-
-## Algorithmic Complexity
-
-We analyze runtime for sorting:
-
-$$
-T(n) = O(n \log n)
-$$
+This slide uses a background image with custom styling.  
+Your email: **23f1000504@ds.study.iitm.ac.in**
 
 ---
 
-## Features
+# Code Example (Python)
 
-- Written in **Markdown**
-- Easy to version control
-- Export to **PDF, PPTX, HTML**
-- Styled with custom themes
-
----
-
-<!-- _header: **Contact** -->
-<!-- _footer: 23f1000504@ds.study.iitm.ac.in -->
-
-# Contact
-
-Email: **23f1000504@ds.study.iitm.ac.in**
+```python
+def factorial(n):
+    if n == 0:
+        return 1
+    return n * factorial(n-1)
