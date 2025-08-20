@@ -1,40 +1,44 @@
 ---
 marp: true
 title: Technical Documentation with Marp
-author: Nilima Motghare
-theme: default
+author: Nilima (23f1000504@ds.study.iitm.ac.in)
+theme: gaia
 paginate: true
 ---
 
 # Technical Documentation with Marp
 
-**Author:** Nilima Motghare  
-**Email:** 23f1000504@ds.study.iitm.ac.in  
+Author: **Nilima**  
+Email: **23f1000504@ds.study.iitm.ac.in**
 
 ---
 
-# Why Marp?
+<!-- _class: lead -->
+<!-- _background: "background.png" -->
 
-- Write presentations in **Markdown**
-- Export to **HTML, PDF, PPTX**
-- Version control with **GitHub**
-- Custom themes and styles
+# Welcome
 
----
-
-![bg](Sunset%20Sky%20with%20Illuminated%20Clouds.png)
-
-# Background Image Example
-
-This slide uses a **background image** 🎨  
-Your email: **23f1000504@ds.study.iitm.ac.in**
+This slide uses a **background image** (`background.png`).
 
 ---
 
-# Code Example (Python)
+## Custom Styling
+
+<style>
+h1 {
+  color: #d33682;
+}
+p {
+  font-size: 20px;
+}
+</style>
+
+Marp allows inline **custom CSS styling** for flexible presentations.
+
+---
+
+## Code Example
 
 ```python
-def factorial(n):
-    if n == 0:
-        return 1
-    return n * factorial(n-1)
+def hello():
+    print("Hello, World!")
