@@ -1,46 +1,47 @@
 ---
 marp: true
-title: Product Documentation Presentation
-author: Nilima Motghare
-theme: default
+title: Technical Documentation with Marp
+author: Nilima (23f1000504@ds.study.iitm.ac.in)
+theme: gaia
 paginate: true
 ---
 
-# Product Documentation
+# Technical Documentation with Marp
 
-📧 Email: **23f1000504@ds.study.iitm.ac.in**
-
----
-
-# Custom Theme Example
-
-<style>
-section {
-  background: #f9f9f9;
-  color: #222;
-}
-h1 {
-  color: #007acc;
-}
-</style>
-
-This slide uses a **custom CSS theme**.
+Author: **Nilima**  
+Email: **23f1000504@ds.study.iitm.ac.in**
 
 ---
 
-# Background Image Example
+# Welcome
+
+This slide uses a **background image**.
 
 ![bg](background.png)
 
-This slide demonstrates a **background image**.  
-Your background file should be named **background.png** in the repo.
+---
+
+## Custom Styling
+
+<style>
+h1 {
+  color: #d33682;
+}
+p {
+  font-size: 20px;
+}
+</style>
+
+Marp allows inline **custom CSS styling** for flexible presentations.
 
 ---
 
-# Code Example (Syntax Highlighting)
+# Algorithmic Complexity
 
-```python
-def fibonacci(n):
-    if n <= 1:
-        return n
-    return fibonacci(n-1) + fibonacci(n-2)
+Inline math: $O(n \log n)$
+
+Block math:
+
+$$
+T(n) = T\left(\frac{n}{2}\right) + O(n) \implies T(n) = O(n \log n)
+$$
