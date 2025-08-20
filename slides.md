@@ -13,39 +13,36 @@ Email: **23f1000504@ds.study.iitm.ac.in**
 
 ---
 
-<!-- _class: lead -->
 <!-- _background: "background.png" -->
-<!-- paginate: true -->
 
 # Welcome
 
-This slide uses a **background image** (`background.png`) and a **Marp directive**.
+This slide has a **background image** (`background.png`)  
+and uses a **Marp directive**.
 
 ---
 
 # Custom Styling
 
 <style>
-h1 {
-  color: #d33682;
-}
-p {
-  font-size: 20px;
-}
+h1 { color: #d33682; }
+p { font-size: 20px; }
 </style>
 
-Marp allows inline **custom CSS styling** for flexible presentations.
+Marp allows inline **custom CSS styling**  
+for flexible presentations.
 
 ---
 
 # Algorithmic Complexity
 
-Example of a mathematical equation:  
+Example of a mathematical equation:
 
 $$
 T(n) = O(n \log n)
 $$
 
-This represents the **time complexity** of efficient sorting algorithms like Merge Sort.
+This represents the time complexity of  
+efficient sorting algorithms like **Merge Sort**.
 
 ---
